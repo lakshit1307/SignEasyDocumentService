@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+
+  web:
+    build: .
+#      context: .
+#      dockerfile: ./Dockerfile
+    command: python3 documentHandlerService/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/opt/app
+    ports:
+      - "8000:8000"
