@@ -280,7 +280,8 @@ def addFile(fileName):
     """
     add file to the document repository
     """
-    filePath = 'documentController/documentRepository/' + fileName
+    print()
+    filePath = 'documentHandlerService/documentController/documentRepository/' + fileName
     if not os.path.exists(filePath):
         open(filePath, 'w').close()
         return filePath
