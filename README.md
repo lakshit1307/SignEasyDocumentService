@@ -1,5 +1,5 @@
 # SignEasyDocumentService
 
-#Requirements: Docker/Docker-compose
+Requirements: Docker/Docker-compose
 
-#COMMAND TO RUN:  sudo docker-compose up --build
+COMMAND TO RUN:  sudo docker-compose up --build
