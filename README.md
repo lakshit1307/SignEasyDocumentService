@@ -2,7 +2,7 @@
 
 Requirements: Docker/Docker-compose
 
-
+Swagger end point: /swagger
 
 COMMAND TO RUN:  
 
